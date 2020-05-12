@@ -1,11 +1,4 @@
-class Person {
-    name: string;
-    age: number;
-}
+const fs = require('fs');
+const path = require('path');
 
-let person1 = new Person();
-
-person1.age = 10;
-person1.name = 'Caleb';
-
-console.log(person1);
+console.log(path.join(__dirname, 'app.js'));
